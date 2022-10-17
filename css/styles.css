@@ -211,7 +211,8 @@ img {
 .features-icon-box {
    display: flex;
    justify-content: center;
-   padding: 25px 0;
+   align-items: center;
+   height: 120px;
    margin-bottom: 30px;
    background: var(--features-background);
    border-radius: 4px;
@@ -361,7 +362,7 @@ img {
 .client-link:hover,
 .client-link:focus {
    color: var(--action-color);
-   border: 1px solid currentColor;
+   border-color: currentColor;
 }
 
 /* Секція "footer" */
